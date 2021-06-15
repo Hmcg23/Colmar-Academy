@@ -5,11 +5,15 @@
     font-size: 10px;
 }
 nav{
-    padding-top: 20px;
     height: 6em;
     width: 100%;
     background-color: white;
     display: inline-flex;
+    background-color: rgb(107, 170, 230);
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 .logo{
@@ -31,7 +35,18 @@ nav{
     font-size: 32px;
 }
 
+.text-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .text{
     padding-left: 16px;
     font-size: 20px;
+}
+
+.text2{
+    padding-left: 16px;
+    font-size: 20px;
+    padding-right: 24px;
 }
