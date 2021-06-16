@@ -70,11 +70,14 @@ nav{
 .learn{
     font-size: 50px;
     font-weight: bold;
-    color: rgb(53, 53, 53);
+    color: #353535;
+    padding: 3.5em 0 1em 0;
 }
 
 .quote{
-    font-size: 24px;
+    font-size: 30px;
+    padding-bottom: 1em;
+
 }
 
 button{
@@ -84,12 +87,13 @@ button{
     background-color: rgb(53, 53, 53);
     color: white;
     align-items: center;
+
 }
 
 .banner-container{
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 50em;
 
 
 }
