@@ -97,3 +97,37 @@ button{
 
 
 }
+
+/* Main Info Section */
+
+.man-reading{
+    width: 60%;
+    padding: 32px 24px 32px 0;
+}
+
+.practice{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24px;
+}
+
+.doesnt-hurt{
+    font-size: 50px;
+    font-weight: bold;
+    color: #353535;
+    margin-bottom: 24px;
+}
+
+.long-quote{
+    font-size: 24px;
+    max-width: 60%;
+    font-weight: 100;
+
+}
+
+.Strategist{
+    padding-top: 50px;
+    font-size: 16px;
+    padding-bottom: 32px;
+}
