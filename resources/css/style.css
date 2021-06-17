@@ -100,8 +100,12 @@ button{
 
 /* Main Info Section */
 
+div#main-info{
+    display: flex;
+}
+
 .man-reading{
-    width: 60%;
+    width: 100%;
     padding: 32px 24px 32px 0;
 }
 
@@ -110,6 +114,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     margin-left: 24px;
+    max-width: 60%;
 }
 
 .doesnt-hurt{
@@ -121,13 +126,47 @@ button{
 
 .long-quote{
     font-size: 24px;
-    max-width: 60%;
     font-weight: 100;
 
 }
 
-.Strategist{
+.strategist{
     padding-top: 50px;
     font-size: 16px;
     padding-bottom: 32px;
+}
+
+
+.info{
+    padding-top: 16px;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.side-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    padding: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 530;
+}
+
+.extra{
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 100;
 }
