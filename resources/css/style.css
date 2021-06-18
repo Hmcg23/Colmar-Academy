@@ -144,7 +144,6 @@ div#main-info{
     display: flex;
     flex-direction: column;
     border-left: 1px solid rgb(190, 190, 190);
-    border-right: 1px solid rgb(190, 190, 190);
 }
 
 .box{
@@ -155,9 +154,7 @@ div#main-info{
 }
 
 div.side-text{
-    width: 65%;
-    max-width: 65%;
-    max-height: 65%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 3;
@@ -166,7 +163,7 @@ div.side-text{
 
 .img{
     padding: 1.6em;
-    width: 35%;
+    width: 40%;
     height: auto;
 }
 
@@ -177,16 +174,18 @@ div.side-text{
 
 .extra{
     padding: 8px 0;
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-weight: 100;
 }
 
 .more{
     color: rgb(58, 103, 199);
-    font-size: 1.7em;
+    font-size: 1.9em;
 
 }
 
 .box:hover{
     background-color: rgb(190, 190, 190);
 }
+
+/* Courses Section */
