@@ -100,7 +100,7 @@ button{
 
 /* Main Info Section */
 
-div#main-info{
+#main-info{
     display: flex;
 }
 
@@ -189,3 +189,23 @@ div.side-text{
 }
 
 /* Courses Section */
+
+#courses{
+    background-color: rgb(190, 190, 190);
+}
+
+.courses{
+    color: #353535;
+}
+
+.start-learning{
+    font-size: 40px;
+    padding: 32px;
+    text-align: center;
+    font-weight: 900;
+    color: #353535;
+}
+
+#courses img{
+    height: auto;
+}
