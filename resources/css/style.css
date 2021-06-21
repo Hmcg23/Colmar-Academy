@@ -196,11 +196,14 @@ div.side-text{
 
 .courses{
     color: #353535;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3.2rem;
 }
 
 .start-learning{
-    font-size: 40px;
-    padding: 32px;
+    font-size: 4rem;
+    padding: 3.2rem;
     text-align: center;
     font-weight: 900;
     color: #353535;
@@ -208,4 +211,29 @@ div.side-text{
 
 #courses img{
     height: auto;
+    width: 100%;
+}
+
+.course-box{
+    background-color: white;
+}
+
+.name{
+    font-size: 3.2rem;
+    padding: 1.6rem;
+}
+
+
+.courses{
+    font-size: 1.6rem;
+    padding: .8rem 1.6rem;
+    font-weight: 100;
+}
+
+.description{
+    font-size: 1.6rem;
+    font-weight: 100;
+    padding-bottom: 24px;
+    padding-left: 1.6rem;
+    max-width: 80%;
 }
