@@ -201,7 +201,7 @@ div.side-text{
     grid-gap: 3.2rem;
 }
 
-.start-learning{
+.header{
     font-size: 4rem;
     padding: 3.2rem;
     text-align: center;
@@ -236,4 +236,31 @@ div.side-text{
     padding-bottom: 24px;
     padding-left: 1.6rem;
     max-width: 80%;
+}
+
+/* Thesis Section */
+
+.left-thesis{
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    width: 60%;
+    padding: 0px 24px 24px 24px;
+}
+
+.reimagine{
+    font-size: 24px;
+    max-width: 60%;
+    padding-left: 24px;
+
+}
+
+.latin{
+    max-width: 60%;
+    padding: 8px 24px 32px;
+    font-size: 1.7rem;
+    font-weight: 100;
+
 }
